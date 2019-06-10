@@ -1,54 +1,44 @@
-# ml-art-final2-upgamers
-ml-art-final2-upgamers created by GitHub Classroom
-
-Project Description: https://docs.google.com/document/d/1fU5N5D83K50bu49dHUeC_S_HiPxG5m_e9qO1rdQAmnI/edit?usp=sharing
-
-# Final Project
+# Iconographic News
 
 Luke Wulf, lwulf@ucsd.edu
 
 ## Abstract Proposal
 
-FIRST STEP: Write up a description (in the form of an abstract) of what you will revisit for your final project. This should be one paragraph clearly describing your concept and approach. What are your desired creative goals? How are you expanding on something we covered in the class? How will you present your work next Wednesday in the final project presentations? 
-
-For the final project I plan to iterate on the generative music assignment, where we created an interface for musicians to interact with magenta models. I desire to make a musical partner that is accessible for any musician, so as a result, I aim to make the interactivity more open, with diverse instruments, scales, and tempos. Consequently, I will have to tweak the magenta models in order to adapt to these changes. The concept I have found the most interesting and impactful during this class has been an AI functioning as a co-creator, and I wish to explore that idea further. I wish to present my final as a live perfomance of sorts, since the model does have some latency unfortunately.
+  As the world gets more technologically advanced, I see the term of Artificial Intelligence (AI) becoming increasingly personified.  However, when one speaks of an intelligence, it implies that the intelligent thing has some form of perspective on its environment.  And, with the unique case of AI, it can become hard to realize this perspective due to the virtual nature of the intelligence.  Therefore, in this project I attempted to visualize how an AI would interpret headlines of itself by having it first process what a headline was about, and then having it map this meaning into the form of a drawing.
+.
 
 ## Project Report
 
 final.pdf
-https://docs.google.com/document/d/1fU5N5D83K50bu49dHUeC_S_HiPxG5m_e9qO1rdQAmnI/edit?usp=sharing
 
 ## Model/Data
 
-Briefly describe the files that are included with your repository:
-- trained models
-- training data (or link to training data)
+- News Articles: newsapi.org
+- SketchRNN ML5 Trained Models: ml5js.org
 
 ## Code
 
-Your code for generating your project:
-- Python: generative_code.py
-- Jupyter notebooks: generative_code.ipynb
+- Jupyter notebooks: ECE188_Final_HeadlinesToSketchRNN.ipynb
+-  Grabs most recent news headlines related to AI and parses out meaning from titles, which are then mapped to model classes
+
+- Processing: final.js
+-  Visualizing the parsed data in the form of a sketch using ml5
 
 ## Results
 
-Documentation of your results in an appropriate format, both links to files and a brief description of their contents:
-- What you include here will very much depend on the format of your final project
-  - image files (`.jpg`, `.png` or whatever else is appropriate)
-  - 3d models
-  - movie files (uploaded to youtube or vimeo due to github file size limits)
-  - audio files
-  - ... some other form
+Two examples of the produced output:
+- amazonNewsTitle.png
+- sentinelOne188.png
+
 
 ## Technical Notes
 
-Any implementation details or notes we need to repeat your work. 
-- Does this code require other pip packages, software, etc?
-- Does it run on some other (non-datahub) platform? (CoLab, etc.)
+You must register a token to use the newsAPI, my token has been removed in the public repo
+You must pip install the newsAPI package to use the api
+You must have a pen plotter with driver to visualize physically
 
 ## Reference
 
-References to any papers, techniques, repositories you used:
-- Papers
-- Repositories
-- Blog posts
+ml5js.org
+p5js.org
+newsapi.org
