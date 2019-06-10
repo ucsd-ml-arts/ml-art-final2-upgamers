@@ -19,10 +19,10 @@ final.pdf
 ## Code
 
 - Jupyter notebooks: ECE188_Final_HeadlinesToSketchRNN.ipynb
--  Grabs most recent news headlines related to AI and parses out meaning from titles, which are then mapped to model classes
+-- Grabs most recent news headlines related to AI and parses out meaning from titles, which are then mapped to model classes
 
 - Processing: final.js
--  Visualizing the parsed data in the form of a sketch using ml5
+-- Visualizing the parsed data in the form of a sketch using ml5
 
 ## Results
 
@@ -33,12 +33,12 @@ Two examples of the produced output:
 
 ## Technical Notes
 
-You must register a token to use the newsAPI, my token has been removed in the public repo
-You must pip install the newsAPI package to use the api
-You must have a pen plotter with driver to visualize physically
+- You must register a token to use the newsAPI, my token has been removed in the public repo
+- You must pip install the newsAPI package to use the api
+- You must have a pen plotter with driver to visualize physically
 
 ## Reference
 
-ml5js.org
-p5js.org
-newsapi.org
+- ml5js.org
+- p5js.org
+- newsapi.org
